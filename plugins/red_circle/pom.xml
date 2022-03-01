@@ -4,7 +4,19 @@
     <groupId>com.drawer.circle</groupId>
     <artifactId>circle_drawer</artifactId>
     <version>0.0.1</version>
+    <relativePath>../../pom.xml</relativePath>    
   </parent>
-  <groupId>com.drawer.circle.app</groupId>
-  <artifactId>app</artifactId>
+  <groupId>com.drawer.circle.plugins.red_circle</groupId>
+  <artifactId>red_circle</artifactId>
+  
+  <dependencies>
+  	<dependency>
+  	    <groupId>com.drawer.circle.app</groupId>
+  		<artifactId>app</artifactId>
+		<version>0.0.1</version>	
+  	</dependency>
+  </dependencies>
+ 
+  
+  
 </project>
